@@ -1,0 +1,42 @@
+body{
+    background-color:#d0e4fe;
+    text-align:center;
+
+}
+
+
+#header {
+    height: 40px; border:  1px solid blue;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+#content {
+    border: 1px solid red;
+}
+.goright {
+    margin-left: 20px;
+}
+.error {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20 px;
+}
+
+table, td, tr {   
+    border: 1px solid black;
+    padding:5px;
+}
+form {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+table { width:100%; border-collapse:collapse;  }
+table td { padding:8px; border:#999 1px solid; }
+ 
+table tr:nth-child(even) { /*(even) or (2n 0)*/
+    background: #A4D1FF;
+}
+table tr:nth-child(odd) { /*(odd) or (2n 1)*/
+    background: #EAF4FF;
+}
